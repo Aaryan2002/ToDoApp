@@ -1,0 +1,99 @@
+#main_heading {
+    text-align: center;
+    font-size: 4rem;
+    border-bottom: grey;
+    border-bottom-style: solid;
+    margin: 0%;
+}
+form{
+    margin: 0;
+}
+body{
+    margin: 0%;
+    color: grey;
+}
+.section {
+    border-bottom: grey;
+    border-bottom-style: solid;
+    overflow: hidden;
+    flex-grow: 1;
+    padding: 1rem;
+}
+.section_heading{
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+#desciption_input{
+    
+    display: block;
+    border: 0;
+    height:4rem;
+    width: 90%;
+    color: grey;
+    font-size: 1rem;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+.vertical_line {
+    width: 2px;
+    background-color: grey;
+}
+#category {
+    font-size: 1rem;
+    color: grey;
+    width: 90%;
+}
+#submit_button {
+    background-color: grey;
+    border: 0;
+    margin: auto;
+}
+#submit_button h2{
+    font-size: 1.5rem;
+    color: white;
+    display: inline;
+}
+#submit_button i{
+    font-size: 1.5rem;
+    display:inline;
+    color: white;
+}
+#submit_button:hover{
+background-color: white;
+/* border: 1 !important; */
+border-width: 2px;
+border-style: solid;
+border-color: grey !important;
+
+} 
+#submit_button:hover h2{
+    color: grey;
+    } 
+#submit_button:hover i{
+      color: grey;
+}
+i {
+    display: inline ;
+}
+.task_section {
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+.task_delete_section {
+    padding: 0 1rem 0 0;
+    margin: auto 0;
+    flex-grow: 0;
+}
+.task_section h3{
+    display: inline;
+    color: rgb(68, 68, 88);
+}
+.delete_button:hover{
+    color: red;
+}
+.date_icon {
+    color: rgb(68, 68, 88);
+}
