@@ -24,3 +24,13 @@ module.exports.create = function(req, res){
             return res.redirect('back');
     });
 };
+module.exports.delete = function(req, res){
+    let id = req.query.id;
+    Task.findByIdAndDelete(id, function(err){
+        if(err){
+            console.log("Error in deleting the task",err);
+            return;
+        }
+       return res.redirect('back');
+    })
+};

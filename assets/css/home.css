@@ -83,10 +83,15 @@ i {
     flex-grow: 1;
 }
 .task_delete_section {
-    padding: 0 1rem 0 0;
+    padding: 0 1rem 0 1rem;
     margin: auto 0;
     flex-grow: 0;
 }
+.category_section {
+    padding: 0 1rem 0 1rem !important;
+    margin: auto 0;
+}
+
 .task_section h3{
     display: inline;
     color: rgb(68, 68, 88);
@@ -96,4 +101,16 @@ i {
 }
 .date_icon {
     color: rgb(68, 68, 88);
+}
+.color_College{
+    background-color: yellow;
+}
+.color_Leisure{
+    background-color: teal;
+}
+.color_Work{
+background-color: green;
+}
+.color_Others{
+    background-color: indigo;
 }
